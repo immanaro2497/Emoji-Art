@@ -7,18 +7,41 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		18465B722C2D32A5005F5FEE /* Palette.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18465B712C2D32A5005F5FEE /* Palette.swift */; };
+		18465B742C2D3501005F5FEE /* PaletteStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18465B732C2D3501005F5FEE /* PaletteStore.swift */; };
+		18465B762C2D4051005F5FEE /* PaletteChooser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18465B752C2D4051005F5FEE /* PaletteChooser.swift */; };
+		18465B782C2D7976005F5FEE /* PaletteEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18465B772C2D7976005F5FEE /* PaletteEditor.swift */; };
+		18465B7A2C2D8576005F5FEE /* PaletteList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18465B792C2D8576005F5FEE /* PaletteList.swift */; };
+		18465B7C2C2DA38C005F5FEE /* PaletteManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18465B7B2C2DA38C005F5FEE /* PaletteManager.swift */; };
 		18C34F282C2C338C007C279E /* Emoji_ArtApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C34F272C2C338C007C279E /* Emoji_ArtApp.swift */; };
 		18C34F2A2C2C338C007C279E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C34F292C2C338C007C279E /* ContentView.swift */; };
 		18C34F2C2C2C338D007C279E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18C34F2B2C2C338D007C279E /* Assets.xcassets */; };
 		18C34F2F2C2C338D007C279E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18C34F2E2C2C338D007C279E /* Preview Assets.xcassets */; };
+		18C34F362C2C33C6007C279E /* EmojiArt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C34F352C2C33C6007C279E /* EmojiArt.swift */; };
+		18C34F382C2C34A8007C279E /* EmojiArtDocument.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C34F372C2C34A8007C279E /* EmojiArtDocument.swift */; };
+		18C34F3A2C2C3607007C279E /* EmojiArtDocumentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C34F392C2C3607007C279E /* EmojiArtDocumentView.swift */; };
+		18C34F3C2C2C378F007C279E /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C34F3B2C2C378F007C279E /* Extensions.swift */; };
+		18C34F3E2C2C56C4007C279E /* Sturldata.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C34F3D2C2C56C4007C279E /* Sturldata.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		18465B712C2D32A5005F5FEE /* Palette.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Palette.swift; sourceTree = "<group>"; };
+		18465B732C2D3501005F5FEE /* PaletteStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaletteStore.swift; sourceTree = "<group>"; };
+		18465B752C2D4051005F5FEE /* PaletteChooser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaletteChooser.swift; sourceTree = "<group>"; };
+		18465B772C2D7976005F5FEE /* PaletteEditor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaletteEditor.swift; sourceTree = "<group>"; };
+		18465B792C2D8576005F5FEE /* PaletteList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaletteList.swift; sourceTree = "<group>"; };
+		18465B7B2C2DA38C005F5FEE /* PaletteManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaletteManager.swift; sourceTree = "<group>"; };
+		1864211C2C2EC05300370B88 /* Emoji-Art-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Emoji-Art-Info.plist"; sourceTree = SOURCE_ROOT; };
 		18C34F242C2C338C007C279E /* Emoji Art.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Emoji Art.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		18C34F272C2C338C007C279E /* Emoji_ArtApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Emoji_ArtApp.swift; sourceTree = "<group>"; };
 		18C34F292C2C338C007C279E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		18C34F2B2C2C338D007C279E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		18C34F2E2C2C338D007C279E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		18C34F352C2C33C6007C279E /* EmojiArt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiArt.swift; sourceTree = "<group>"; };
+		18C34F372C2C34A8007C279E /* EmojiArtDocument.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiArtDocument.swift; sourceTree = "<group>"; };
+		18C34F392C2C3607007C279E /* EmojiArtDocumentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiArtDocumentView.swift; sourceTree = "<group>"; };
+		18C34F3B2C2C378F007C279E /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		18C34F3D2C2C56C4007C279E /* Sturldata.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sturldata.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,10 +74,22 @@
 		18C34F262C2C338C007C279E /* Emoji Art */ = {
 			isa = PBXGroup;
 			children = (
+				1864211C2C2EC05300370B88 /* Emoji-Art-Info.plist */,
 				18C34F272C2C338C007C279E /* Emoji_ArtApp.swift */,
 				18C34F292C2C338C007C279E /* ContentView.swift */,
 				18C34F2B2C2C338D007C279E /* Assets.xcassets */,
 				18C34F2D2C2C338D007C279E /* Preview Content */,
+				18C34F352C2C33C6007C279E /* EmojiArt.swift */,
+				18C34F372C2C34A8007C279E /* EmojiArtDocument.swift */,
+				18C34F392C2C3607007C279E /* EmojiArtDocumentView.swift */,
+				18C34F3B2C2C378F007C279E /* Extensions.swift */,
+				18C34F3D2C2C56C4007C279E /* Sturldata.swift */,
+				18465B712C2D32A5005F5FEE /* Palette.swift */,
+				18465B732C2D3501005F5FEE /* PaletteStore.swift */,
+				18465B752C2D4051005F5FEE /* PaletteChooser.swift */,
+				18465B772C2D7976005F5FEE /* PaletteEditor.swift */,
+				18465B792C2D8576005F5FEE /* PaletteList.swift */,
+				18465B7B2C2DA38C005F5FEE /* PaletteManager.swift */,
 			);
 			path = "Emoji Art";
 			sourceTree = "<group>";
@@ -137,8 +172,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18465B7C2C2DA38C005F5FEE /* PaletteManager.swift in Sources */,
+				18C34F3E2C2C56C4007C279E /* Sturldata.swift in Sources */,
+				18C34F3A2C2C3607007C279E /* EmojiArtDocumentView.swift in Sources */,
+				18C34F3C2C2C378F007C279E /* Extensions.swift in Sources */,
+				18465B7A2C2D8576005F5FEE /* PaletteList.swift in Sources */,
+				18C34F362C2C33C6007C279E /* EmojiArt.swift in Sources */,
+				18465B742C2D3501005F5FEE /* PaletteStore.swift in Sources */,
+				18465B762C2D4051005F5FEE /* PaletteChooser.swift in Sources */,
+				18465B782C2D7976005F5FEE /* PaletteEditor.swift in Sources */,
 				18C34F2A2C2C338C007C279E /* ContentView.swift in Sources */,
 				18C34F282C2C338C007C279E /* Emoji_ArtApp.swift in Sources */,
+				18C34F382C2C34A8007C279E /* EmojiArtDocument.swift in Sources */,
+				18465B722C2D32A5005F5FEE /* Palette.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,11 +320,13 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Emoji Art/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Emoji-Art-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportsDocumentBrowser = YES;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -302,11 +350,13 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Emoji Art/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Emoji-Art-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportsDocumentBrowser = YES;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
